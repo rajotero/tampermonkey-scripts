@@ -2,7 +2,7 @@
 // @name         Botones pedidos Amazon
 // @namespace    http://tampermonkey.net/
 // @version      1.2
-// @match        https://sellercentral.amazon.es/orders-v3*
+// @match        https://*/orders-v3*
 // @grant        GM_xmlhttpRequest
 // @connect      192.168.0.85
 // @updateURL    https://raw.githubusercontent.com/rajotero/tampermonkey-scripts/main/script.user.js
