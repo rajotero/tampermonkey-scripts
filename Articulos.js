@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name         Botones pedidos Amazon
+// @name         Articulos
 // @namespace    http://tampermonkey.net/
-// @version      1.4
-// @match        https://*/orders-v3*
+// @version      1.0
+// @match        https://*/myinventory/inventory*
 // @grant        GM_xmlhttpRequest
 // @connect      192.168.0.85
-// @updateURL    https://raw.githubusercontent.com/rajotero/tampermonkey-scripts/main/script.user.js
-// @downloadURL  https://raw.githubusercontent.com/rajotero/tampermonkey-scripts/main/script.user.js
+// @updateURL    https://raw.githubusercontent.com/rajotero/tampermonkey-scripts/main/Articulos.js
+// @downloadURL  https://raw.githubusercontent.com/rajotero/tampermonkey-scripts/main/Articulos.js
 // ==/UserScript==
 
 (function () {
