@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Botones pedidos Amazon
 // @namespace    http://tampermonkey.net/
-// @version      1.2
+// @version      1.3
 // @match        https://*/orders-v3*
 // @grant        GM_xmlhttpRequest
 // @connect      192.168.0.85
