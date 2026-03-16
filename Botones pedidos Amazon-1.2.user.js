@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Botones pedidos Amazon
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @match        https://*/orders-v3*
 // @grant        GM_xmlhttpRequest
 // @connect      192.168.0.85
@@ -132,7 +132,7 @@ const top = 0;
 function crearBotonesPedido(pedido,sku,link){
 
     const btnControl = document.createElement('button');
-    btnControl.textContent="Control.";
+    btnControl.textContent="Control.1.4";
     btnControl.className="btn-amz-extra btn-control";
     btnControl.dataset.orderId=pedido;
     btnControl.style.marginLeft="6px";
